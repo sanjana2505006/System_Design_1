@@ -8,5 +8,6 @@ export class Book {
         public publishedYear: number,
         public createdAt: Date,
         public updatedAt: Date
-    ) {}
+
+    ) { }
 }
