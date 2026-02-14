@@ -1,5 +1,6 @@
 import express from "express";
 import bookRoutes from "./routes/book.routes";
+import todoRoutes from "./routes/todo.route";
 import { errorHandler } from "./middlewares/error.middleware";
 
 class App {
@@ -23,6 +24,7 @@ class App {
             res.send("Welcome to the Book Library API");
         });
         this.app.use("/api/v1/books", bookRoutes);
+        this.app.use("/api/v1/todos", todoRoutes);
     }
 
     private initializeErrorHandling() {
