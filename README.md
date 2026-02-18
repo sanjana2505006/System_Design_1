@@ -1,4 +1,4 @@
-# System Design 1
+# FSD_Project
 # Book Management API
 
 This is a robust Backend API for a Library/Bookstore Management System, built with **Node.js, Express, and TypeScript**. It follows **Object-Oriented Programming (OOP)** principles and implements clean architecture (Controllers → Services → Repositories).
